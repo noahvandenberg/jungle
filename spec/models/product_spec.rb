@@ -9,7 +9,6 @@ RSpec.describe Product, type: :model do
     end
     
     it 'Validate Name is Present' do
-      puts @product.inspect
       expect(@product.name).to be_present
     end
 
